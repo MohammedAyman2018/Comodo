@@ -1,0 +1,103 @@
+
+a:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+.section-one{
+    background-image: url(../img/banner/home-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 160px 0px;
+}
+
+.section-one .address{
+    margin-top: 50px
+}
+.section-one a{
+    color: #FFF;
+    font-weight: 300;
+    font-size: 18px;
+    transition: all 0.4s ease-in
+}
+
+.section-one a:hover{
+    color: #3fcaff;
+}
+
+.section-one h1{
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+
+#map{
+    width: 100%;
+    height: 400px;
+}
+
+.section-two{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.section-three .info-item{
+    margin-bottom: 15px;
+    padding: 0 0 20px 20px;
+    position: relative;
+}
+.section-three i{
+    position: absolute;
+    left: 0px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #3fcaff;
+}
+
+.section-three h3, .section-three p{
+    margin: 0 0 0 15px;
+}
+
+.section-three h3{
+    font-size: 24px;
+    font-weight: bold
+}
+
+.section-three p{
+    color: #777;
+    padding-top: 5px;
+    font-size: 14px
+}
+
+.section-three input{
+    border-radius: 0;
+    color: #777;
+    font-size: 12px;
+}
+
+.section-three .form-group{
+    margin-bottom: 0;
+}
+
+.section-three textarea:focus,.section-three input:focus{
+    box-shadow: none;
+    border-color: #ccc;
+}
+
+.section-three textarea{
+    resize: none;
+    height: 164px;
+    color: #777;
+    font-size: 12px;
+    border-radius: 0;
+}
+
+.section-three button{
+    border-radius: 4px !important;
+    height: 50px !important;
+}
+
+footer{
+    margin-top: 120px
+}

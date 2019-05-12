@@ -1,0 +1,576 @@
+
+/* Some important classes */
+
+
+/* Start banner area */
+.banner {
+    padding-top: 90px;
+    background-size: cover;
+    background: url(../img/banner/home-banner.jpg) no-repeat center center;
+}
+
+.banner-area {
+    padding-bottom: 100px;
+}
+
+.banner-area .row .right h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.banner-area .row .right p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.video-btn .play::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    animation-name: pulse-border ;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    z-index: 0;
+    background: linear-gradient(90deg, #3fcaff 0%, #a4ffb0 100%)
+}
+
+.video-btn .play {
+    font-size: 20px;
+    position: relative;
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background: linear-gradient(90deg, #3fcaff 0%, #a4ffb0 100%);
+    color: #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-btn .play:hover {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.video-btn p {
+    font-size: 14px !important;
+    color: #CCC !important;
+}
+
+/*End banner one */
+/*Start banner two */
+
+/* start banner two */
+
+.banner-two .container {
+    background: linear-gradient(to right, #231a60 0%, #3c338d 51%, #231a60 100%);
+}
+
+.about-us-content {
+    padding: 40px;
+    position: relative;
+}
+
+.about-us {
+    text-align: left;
+    color: #FFF;
+}
+
+.about-us h3 {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.about-us h3::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+    height: 1px;
+    width: 50px;
+}
+
+.about-us h2 {
+    font-weight: 600;
+    font-size: 36px;
+    padding: 30px 0 30px;
+}
+
+.about-us p {
+    font-weight: 400;
+    padding: 0 40px 40px 0;
+    line-height: 24px;
+}
+
+.about-us .our-btn {
+    border-radius: 5px !important;
+}
+
+.about-us-img {
+    border-left: 1px solid #CCC;
+}
+
+/*End banner two*/
+/* Start banner three */
+
+.back-header {
+    text-align: center;
+    
+}
+
+.back-header h2{
+    font-size: 72px;
+    color: #3fcaff;
+    opacity: 0.1;
+    margin: 0;
+    line-height: 60px;
+}
+
+.back-header h3{
+    margin-top: -40px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.banner-three .container .row {
+    margin-top: 80px
+}
+
+.map-img {
+    margin-bottom: 40px;
+}
+
+.main-title {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.game {
+    position: relative;
+    display: inline-block
+}
+
+.banner-three .container .row .col-lg-3 .main-title h2 {
+    background: rgba(44, 37, 93, 0.8);
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+    transition: all 0.4s ease 0s;
+}
+
+.banner-three .container .row .col-lg-3:hover h2 {
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%) !important;
+    color: #22195e;
+}
+
+/* <!-- ============ End banner Three ========== -->*/
+/*<!-- ============ Start banner Four ========== -->*/
+.banner-four {
+    background-image: url(../img/recent_up_bg.png);
+}
+
+.carousel-indicators {
+    bottom: 0;
+    top: 60px;
+}
+
+/* flex parenet */
+.anchor-ol {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.indecators-ol {
+    width: 80%;
+    padding: 1px;
+    border-radius: 10px;
+    margin: 30px 0;
+    position: relative;
+}
+
+/* flex children */
+.carousel-indicators {
+    height: 60px;
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+    left: 0;
+    margin-left: 0;
+}
+.carousel-indicators li,
+.carousel-indicators .active {
+    font-family: "Rajdhani", sans-serif;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 50px;
+    margin: 5px;
+    text-indent: 0;
+    cursor: pointer;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px;
+    border-radius: 0;
+}
+.carousel-indicators .active,
+.carousel-indicators li:hover {
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%) !important;
+}
+.carousel-indicators .active a,
+.carousel-indicators li:hover a {
+    color: #000000;
+    text-decoration: none;
+}
+.carousel-inner .item {
+    margin-top: 100px;
+    color: #FFF !important;
+}
+.carousel-inner .item .row {
+    padding: 90px 0px;
+}
+.carousel-inner .item button {
+    padding: 0px 35px;
+    height: 60px;
+    cursor: pointer;
+}
+/* <!-- ============ End banner Four ========== --> */
+/*<!-- ============ Start banner Five ========== -->*/
+.modal{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 9595959599999999999999999999999999999999999999999999999999;
+    background-color: rgba(0, 0, 0, 0.711);
+    position: fixed;
+
+}
+
+.modal.in .modal-dialog{
+    top: 50%;
+    transform: translateY( -50%)
+}
+
+.modal .modal-content{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.banner-five header {
+    margin-bottom: 90px;
+}
+
+.top-left-img {
+    margin-bottom: 30px
+}
+
+.noPadding {
+    position: relative;
+    padding-left: 0;
+}
+
+.test i {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index: 9595;
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease-in
+}
+.test i:hover{
+    color: #FFF;
+    background-color: rgba(54, 32, 78, 0.615);
+}
+
+/*<!-- ============ End banner Five ========== -->*/
+/* <!-- ============ End banner Six ========== --> */
+.banner-six {
+    background: url(../img/testimonial_bg.png) no-repeat center;
+    background-size: cover;
+
+}
+.banner-six .owl-carousel .item {
+    color: #FFF;
+    width: 100%;
+    margin: 90px 0;
+}
+.banner-six .owl-carousel .item .row .col-xs-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-six .owl-carousel .item img {
+    margin: auto;
+    width: auto;
+}
+.banner-six .owl-carousel .item i {
+    color: #ffc000;
+    font-size: 14px;
+}
+.banner-six .owl-carousel .item .row .col-xs-12 p {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+/*<!-- ============ End banner Six ========== -->*/
+/*<!-- ============ Start banner Seven ========== -->*/
+.banner-seven .row {margin-top: 120px}
+.banner-seven .row div {
+    background: linear-gradient(to right, #231a60 0%, #3c338d 51%, #231a60 100%);
+    text-align: center;
+    padding: 0;
+    border: 10px solid #FFF;
+    color: #fff;
+}
+.banner-seven .row div.active{color: #FFF !important}
+.banner-seven .row div header p {
+    font-size: 18px;
+    padding: 35px 30px 25px;
+}
+.banner-seven .row div header h3 {
+    padding: 30px;
+    margin: 0;
+    background: #342b7e;
+}
+.banner-seven .row header{
+    font-family: "Rajdhani", sans-serif !important;
+}
+/* Start ul */
+.banner-seven .row div ul {
+    margin: 0;
+    padding: 35px 50px 18px
+}
+.banner-seven .row div ul li {
+    color: #ddd;
+    padding: 14px 0;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.2)
+}
+.banner-seven .row div ul li:last-child{
+    border:none;
+}
+/* Start button */
+.banner-seven .row div .module-border-wrap{
+    width: 50% !important;
+    height: 60px;
+    padding: 1px;
+    border:0;
+    border-radius: 10px;
+    margin: 30px 0;
+    position: relative;
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%); 
+    transition: all 0.4s ease-in-out;
+}
+.banner-seven .row div.active >.module-border-wrap .module, 
+.banner-seven .row div:hover >.module-border-wrap .module{
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%); 
+    color: #22195e;
+    text-decoration: none;
+    border-radius: 10px
+}
+.banner-seven .row div .module-border-wrap .module{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    padding: 0;
+    width: 99%;
+    height: 95%;
+    margin: auto;
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(to right, #231a60 0%, #3c338d 51%, #231a60 100%);
+    transition: all 0.4s ease-in-out;
+}
+/*<!-- ============ End banner Seven ========== -->*/
+/*<!-- ============ Start banner eight ========== -->*/
+.banner-eight .container .row{
+    margin-top: 120px;
+}
+.banner-eight .container .row .question{
+    padding-top: 10px;
+    border: 1px dashed rgba(199, 199, 199, 0.5);
+    border-top: none;
+}
+.banner-eight .container .row .question:nth-child(even){
+    border-right: none; 
+    border-left: none; 
+}
+.banner-eight .container .row .question:nth-child(odd){
+    border-left: none; 
+}
+.banner-eight .container .row .question:nth-last-child(2),.banner-eight .container .row .question:last-child{
+    border-bottom: 0;
+}
+.banner-eight .container .row .question h4{
+    color: #22195e;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Rajdhani"
+}
+.banner-eight .container .row .question p{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 20px 40px 0;
+    margin: 0;
+    color: #777;
+}
+/*<!-- ============ End banner eight ========== -->*/
+/*<!-- ============ Start banner Nine ========== -->*/
+.banner-nine .row{margin-top: 120px;}
+.banner-nine .blog-post{
+    margin-bottom: 20px; 
+}
+/* on hover */
+.banner-nine .blog-post:hover  img,
+.banner-nine .blog-post:active  img{
+    transform: scale(1.2);
+}
+.banner-nine .blog-post:hover  h4 a,
+.banner-nine .blog-post:active h4 a{
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-nine .blog-post:hover .content,
+.banner-nine .blog-post:active .content{
+    background-color: #22195e
+}
+/* Add transtiton */
+.banner-nine .row header img,.banner-nine .blog-post:hover .content,.banner-nine .blog-post:hover  h4 a{
+    transition: all 0.6s ease-in-out;
+}
+.banner-nine .row header{
+    overflow: hidden;
+}
+.banner-nine .content{
+    background: #3b328b;
+    padding: 40px 20px 50px;
+    color: #FFF;
+}
+.banner-nine .content h4 a{
+    font-family: "Rajdhani", sans-serif;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold
+}
+.banner-nine .content p{
+    padding: 20px 0 40px ;
+    color: #ddd;
+    font-weight: 400;
+    margin: 0;
+}
+.banner-nine .content a , .banner-nine .content a i{
+    cursor: pointer;
+    color: #FFF;
+    margin-right: 10px;
+    font-weight: lighter
+}
+/* Start search */
+.search{
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+    margin-top: 120px;
+    padding: 68px 0 60px;
+}
+.search .row{
+    margin-top: 0;
+}
+.search .row h2{
+    margin: 0;
+    font-weight: 600;
+    font-size: 36px;
+    color: #000;
+}
+.search .row p{
+    color: #777;
+}
+.search .row .input-group{display: flex; position: relative;}
+.search .row .input-group .form-control{
+    border-radius: 50px;
+    width: 100%;
+    padding: 30px;
+    height: 50px;
+    display: block;
+}
+.search .row .input-group button{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index:99999;
+}
+/*<!-- ============ End banner Nine ========== -->*/
+
+/*<!-- ============ JS Classes========== -->*/
+
+@-webkit-keyframes pulse-border {
+    0% {
+    -webkit-transform: translate(-50%, -50%) translateZ(0) scale(1);
+    -moz-transform: translate(-50%, -50%) translateZ(0) scale(1);
+    -ms-transform: translate(-50%, -50%) translateZ(0) scale(1);
+    -o-transform: translate(-50%, -50%) translateZ(0) scale(1);
+    transform: translate(-50%, -50%) translateZ(0) scale(1);
+    opacity: 0.7; 
+    }
+    100% {
+    -webkit-transform: translate(-50%, -50%) translateZ(0) scale(1.5);
+    -moz-transform: translate(-50%, -50%) translateZ(0) scale(1.5);
+    -ms-transform: translate(-50%, -50%) translateZ(0) scale(1.5);
+    -o-transform: translate(-50%, -50%) translateZ(0) scale(1.5);
+    transform: translate(-50%, -50%) translateZ(0) scale(1.5);
+    opacity: 0.1; 
+    } 
+}
+.hide{display: none !important}

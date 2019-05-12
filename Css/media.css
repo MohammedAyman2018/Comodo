@@ -1,0 +1,158 @@
+@media (max-width: 767px) {
+
+    /*Start nav*/
+    nav {
+        background-color: #000 !important
+    }
+
+    .navbar-default .container .collapse {
+        margin-top: 10px
+    }
+
+    /* End nav*/
+    /*Start banner*/
+    .banner-area {
+        margin-top: 40px;
+    }
+
+    .banner-area .row .right {
+        margin-left: 0;
+        padding: 30px;
+    }
+
+    .banner-area .row .right h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    /*End banner one*/
+    /* Start banner two */
+    .about-us h2 {
+        line-height: 30px;
+        font-size: 20px;
+        padding: 20px 0 16px;
+    }
+
+    .about-us-content {
+        padding: 35px 10px 35px 35px !important;
+        margin-right: 0;
+    }
+
+    .banner-two {
+        margin-right: 0px;
+    }
+
+    /* End banner two */
+    /* Start banner three */
+    .banner-three header h2 {
+        font-size: 40px;
+    }
+
+    /* End banner three */
+    /* Start banner four */
+    .module {
+        font-size: 12px;
+    }
+
+    .carousel-indicators {
+        padding-left: 0;
+    }
+
+    /* End banner four */
+    /*Start banner4*/
+    .anchor-ol {
+        font-size: 12px;
+        font-weight: 600
+    }
+
+    /*End banner4*/
+    /* Start banner Five */
+    .test{
+        margin-top: 20px;
+    }
+    /* End banner Five */
+    /* Start banner eight */
+    .banner-eight .container .row .question {
+        border: none
+    }
+
+    .banner-eight .container .row .question h4 {
+        font-size: 18px;
+    }
+
+    .banner-eight .container .row .question p {
+        padding-right: 0;
+    }
+
+    /* End banner eight */
+    /* Start banner nine */
+    .search .row h2 {
+        font-size: 25px;
+    }
+
+    .search .row .input-group {
+        margin-top: 30px
+    }
+
+    .search .row .input-group button {
+        padding: 5px;
+        min-width: 10px;
+    }
+
+    /* End banner nine */
+    footer .container .row:nth-child(2) div {
+        padding-left: 15px;
+    }
+
+    footer .container .row:nth-child(2) div .contact {
+        float: left
+    }
+
+    /* Blog */
+    .post-info ul {
+        text-align: left;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /*start nav*/
+    .navbar-nav {
+        margin: 0px -15px;
+    }
+
+    .navbar-nav>li>a {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-right: 3px;
+    }
+
+    /*end nav*/
+    /*Start banner one*/
+
+    .banner-area .row .right h1 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    /*end banner one*/
+    /*Start banner2*/
+
+    /*End banner2*/
+    .map-img {
+        display: inline-block
+    }
+
+    /* Start banner eight */
+    .banner-eight .container .row .question {
+        border: none
+    }
+
+    /* End banner eight */
+
+    /* Blog */
+    .post-info ul {
+        text-align: left;
+    }
+}

@@ -1,0 +1,284 @@
+a {
+    color: #000;
+    transition: all 0.6s ease
+}
+
+a:hover {
+    color: rgb(63, 202, 255) !important;
+    text-decoration: none;
+}
+
+/*Start banner one*/
+.banner-area {
+    margin-top: 120px;
+}
+
+/*Start catigories*/
+.catigory-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.catigory-item .catigory-inner {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 150px;
+    background-color: rgba(34, 34, 34, 0.8);
+    transition: all 0.6s ease-in
+}
+
+.catigory-item .catigory-inner:hover,
+.catigory-item:hover .catigory-inner {
+    background-color: rgba(63, 202, 255, 0.85);
+    cursor: pointer;
+}
+
+.catigory-item .catigory-inner h6 {
+    font-family: 'Helvatica', sans-serif;
+    font-size: 25px;
+}
+
+.catigory-item .catigory-inner p {
+    font-size: 16px;
+    border-top: 1px solid #FFF;
+}
+
+.catigory-item {
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.one {
+    background-image: url(../img/blog/cat-post/cat-post-3.jpg)
+}
+
+.two {
+    background-image: url(../img/blog/cat-post/cat-post-2.jpg)
+}
+
+.three {
+    background-image: url(../img/blog/cat-post/cat-post-1.jpg)
+}
+
+/*Start posts*/
+
+.posts ul li a,
+.posts .post-content p {
+    font: 300 14px/20px "Roboto", sans-serif;
+    color: #777777;
+    padding-bottom: 12px;
+    display: inline-block;
+}
+
+.posts ul li i {
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.posts .post-content{
+    padding-bottom: 30px;
+}
+.posts .post-content a {
+    display: block;
+    max-width: 100%;
+}
+
+.posts .post-content button{
+    min-width: 150px;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    transition: all 0.6s ease;
+}
+
+.posts .post-content button:hover{
+    background-color: rgb(63, 202, 255) !important;
+    color: #FFF;
+}
+/* Start ritgh-col */
+.right-col{
+    padding: 20px;
+    border: 1px solid #eeee
+}
+
+.form-group{
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeee; 
+}
+.right-col .form-group input{
+    display: inline-block;
+    border: none;
+    color: #FFF;
+    border-radius: 45px;
+    background-color: #3fcaff;
+}
+
+.right-col .form-group input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #FFF;
+}
+.right-col .form-group input::-moz-placeholder { /* Firefox 19+ */
+    color: #FFF;
+}
+
+.right-col .form-group input:hover,
+.right-col .form-group input:focus{
+    box-shadow: none;
+}
+.right-col .form-group i{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    color:#FFF;
+    font-weight: 500
+}
+.right-col .user-info p.h5{
+    color: #777;
+}
+.right-col .user-info ul span{
+    margin: 10px; 
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+.right-col .user-info ul span:hover{
+    color: #3fcaff;
+}
+.right-col .user-info p:last-child{
+    text-align: center;
+    color: #777;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+.user-info,.right-col .popular-posts,.ad,.post-catgories, .newsletter{border-bottom: 1px solid #eeee; }
+/* start popular-posts */
+.right-col .popular-posts{
+    padding: 10px 0;
+
+}
+.right-col .popular-posts p.h3,.post-catgories p.h3,.newsletter p.h3,.tag-clouds p.h3{
+    background: #3fcaff;
+    color :#FFF;
+    line-height: 1.9;
+    margin-bottom: 30px;
+}
+.right-col .popular-posts .popular-post{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.right-col .popular-posts .popular-post .disc{
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.right-col .popular-posts .popular-post .disc p:last-child{
+    color: #777;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Start ad */
+.ad img{
+    margin: 25px 0;
+}
+/* start post-catigories */
+.post-catgories ul li{
+    color: #777;
+    border-bottom: 3px dotted #eee;
+    margin-bottom: 15px;
+    transition: all 0.4s ease-in-out;
+}
+.post-catgories ul li:hover{
+    color: #3fcaff;
+    border-bottom-color: #3fcaff;
+}
+.post-catgories ul li p{
+    float: left;
+}
+.post-catgories ul li span{
+    float: right;
+}
+/* Start newsletter */
+.newsletter p:nth-child(2){
+    color: #777;
+    line-height: 1.5;
+}
+
+.newsletter .form-group{
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeee; 
+}
+
+.right-col .newsletter .form-group input{
+    display: inline-block;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    color: #000;
+    padding-left: 40px;
+    border-radius: 0;
+    background-color: transparent;
+}
+.right-col .form-group input:hover,
+.right-col .form-group input:focus{
+    box-shadow: none;
+}
+
+.right-col .newsletter .form-group i{
+    width: 5%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    color:#000;
+    font-weight: 500;
+    z-index: 94994949;
+}
+
+.right-col .newsletter .form-group button{
+    border: none;
+    outline: none;
+    height: 34px;
+    width: 40%;
+    background-color: #3fcaff;;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color:#FFF;
+    font-weight: 500;
+    font-size: 12px;
+}
+/* Start tag-cloud */
+.tag-clouds .tags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tag-clouds .tags .tag{
+    display: inline-block;
+    background: #fff;
+    padding: 4px 13px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    transition: all 0.3s ease 0s;
+    color: #222222;
+    font-size: 12px;
+    border: 1px solid#cccc;
+}
+
+.tag-clouds .tags .tag:hover{
+    color: #FFF !important;
+    background-color: #3fcaff;
+}

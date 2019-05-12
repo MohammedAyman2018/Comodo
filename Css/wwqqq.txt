@@ -1,0 +1,16 @@
+<ul class="list-inline">
+    <a href="singleBlog.html">
+        <i class="lnr lnr-chevron-left"></i>
+    </a>
+    <a href="singleBlog.html">01</a>
+    <a href="singleBlog.html">02</a>
+    <a href="singleBlog.html">03</a>
+    <a href="singleBlog.html">04</a>
+    <a href="singleBlog.html">05</a>
+    <a href="singleBlog.html">
+        <i class="lnr lnr-chevron-right"></i>
+    </a>
+</ul>
+
+
+          
